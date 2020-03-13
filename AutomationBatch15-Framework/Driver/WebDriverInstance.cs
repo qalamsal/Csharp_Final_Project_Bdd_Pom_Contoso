@@ -21,7 +21,7 @@ namespace AutomationBatch15_Framework.Driver
                 // Opens the browser
                 driver = new ChromeDriver();
                 // Navigates to the homepage
-                driver.Navigate().GoToUrl("http://automationpractice.com");
+                driver.Navigate().GoToUrl("http://localhost:41787/");
             }
 
             return driver;
